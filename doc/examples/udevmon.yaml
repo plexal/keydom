@@ -1,0 +1,4 @@
+- JOB: "intercept -g $DEVNODE | /usr/local/bin/keydom | uinput -d $DEVNODE"
+  DEVICE:
+    EVENTS:
+      EV_KEY:
